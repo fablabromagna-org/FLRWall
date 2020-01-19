@@ -60,11 +60,11 @@
 					"patching_rect" : [ 457.0, 62.0, 24.0, 24.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
+							"parameter_mmax" : 1,
 							"parameter_shortname" : "toggle[2]",
 							"parameter_enum" : [ "off", "on" ],
 							"parameter_type" : 2,
-							"parameter_longname" : "toggle[2]",
-							"parameter_mmax" : 1
+							"parameter_longname" : "toggle[2]"
 						}
 
 					}
@@ -108,11 +108,11 @@
 					"patching_rect" : [ 341.0, 62.0, 24.0, 24.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
+							"parameter_mmax" : 1,
 							"parameter_shortname" : "toggle[1]",
 							"parameter_enum" : [ "off", "on" ],
 							"parameter_type" : 2,
-							"parameter_longname" : "toggle[1]",
-							"parameter_mmax" : 1
+							"parameter_longname" : "toggle[1]"
 						}
 
 					}
@@ -156,11 +156,11 @@
 					"patching_rect" : [ 272.0, 62.0, 24.0, 24.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
+							"parameter_mmax" : 1,
 							"parameter_shortname" : "toggle",
 							"parameter_enum" : [ "off", "on" ],
 							"parameter_type" : 2,
-							"parameter_longname" : "toggle",
-							"parameter_mmax" : 1
+							"parameter_longname" : "toggle"
 						}
 
 					}
@@ -238,11 +238,11 @@
 					"patching_rect" : [ 72.0, 420.117553999999984, 24.0, 24.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
+							"parameter_mmax" : 1,
 							"parameter_shortname" : "button",
 							"parameter_enum" : [ "off", "on" ],
 							"parameter_type" : 2,
-							"parameter_longname" : "button",
-							"parameter_mmax" : 1
+							"parameter_longname" : "button"
 						}
 
 					}
@@ -339,7 +339,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 110.0, 1.0, 157.0, 20.0 ],
-					"text" : "< start polling the serial port"
+					"text" : "<Start FLR Serial Test"
 				}
 
 			}
@@ -786,8 +786,8 @@
 		"parameters" : 		{
 			"obj-30" : [ "button", "button", 0 ],
 			"obj-33" : [ "toggle", "toggle", 0 ],
-			"obj-34" : [ "toggle[1]", "toggle[1]", 0 ],
 			"obj-37" : [ "toggle[2]", "toggle[2]", 0 ],
+			"obj-34" : [ "toggle[1]", "toggle[1]", 0 ],
 			"parameterbanks" : 			{
 
 			}
